@@ -1,0 +1,17 @@
+Information retrieval is the science of searching for information in large collections of data. Modern search engines use complex algorithms to retrieve relevant documents from massive datasets.
+
+A search engine typically consists of three main components. The first component is a crawler that collects documents from various sources. The second component is an indexer that processes documents and builds an index. The third component is a query processor that retrieves relevant documents when a user submits a search query.
+
+An inverted index is a key data structure used in search engines. It maps words to the documents that contain those words. This allows search engines to quickly find relevant documents for a given query.
+
+Ranking algorithms determine the order of search results. TF IDF is a classic ranking technique used in information retrieval. It measures how important a word is to a document relative to a collection of documents.
+
+Phrase search allows users to search for exact sequences of words. For example searching for machine learning will return documents where those words appear consecutively.
+
+Stopword removal improves search efficiency by ignoring very common words. Words such as the and is appear frequently in documents but do not contribute much meaning to queries.
+
+Query processing involves tokenizing the user query into individual words. The system then searches the inverted index to find documents containing those words.
+
+Large scale search systems must handle millions of queries every second. Efficient indexing and ranking algorithms are essential for achieving high performance.
+
+Information retrieval techniques are used in web search engines, digital libraries, recommendation systems, and document management platforms.

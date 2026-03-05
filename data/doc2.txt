@@ -1,0 +1,10 @@
+Search engines help users retrieve information from large collections of documents.
+Modern search engines use indexing techniques to quickly locate relevant documents.
+An inverted index maps terms to the documents that contain them.
+Ranking algorithms determine which documents appear first in search results.
+TF-IDF is a common technique used to evaluate term importance.
+Search engines process queries and return the most relevant documents.
+Information retrieval systems use efficient algorithms and data structures.
+Web crawlers collect documents from the internet to build search indexes.
+Search engines must handle billions of documents efficiently.
+Query processing involves tokenization, stopword removal, and ranking.
