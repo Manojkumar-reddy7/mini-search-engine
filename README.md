@@ -1,35 +1,41 @@
 # Mini Search Engine (C++)
 
-This project implements a mini search engine using C++.
+This project implements a simple search engine in C++ using an inverted index and TF-IDF ranking to retrieve relevant documents.
 
-Features
-- Inverted Index
-- TF-IDF Ranking
-- Multi-word search
+## Features
+- Inverted index construction
+- TF-IDF based document ranking
+- Multi-word query support
 - Phrase search
 - Stopword removal
-- Case-insensitive search
+- Case insensitive search
 
-Project Structure
+## Dataset
+The project uses multiple text documents stored in the **data** folder.  
+Each document contains text related to computer science topics such as machine learning, algorithms, and information retrieval.
 
-mini-search-engine
-│
-├── data
-│   ├── doc1.txt
-│   ├── doc2.txt
-│   ├── doc3.txt
-│   ├── doc4.txt
-│   └── doc5.txt
-│
-├── src
-│   ├── main.cpp
-│   ├── indexer.cpp
-│   └── indexer.h
+## Source Code
+The source files are located in the **src** folder.
 
-Compile
+- `main.cpp` – Handles reading documents, building the index, and running the search engine.
+- `indexer.cpp` – Builds the inverted index and stores document statistics.
+- `indexer.h` – Header file for the indexer class.
+
+## How to Compile
+
+Use g++ to compile the project:
 
 g++ -std=c++17 src/main.cpp src/indexer.cpp -o search.exe
 
-Run
+## How to Run
 
-search.exe
+After compiling, run the executable:
+
+.\search.exe
+
+## Example Queries
+
+machine learning  
+"machine learning"  
+search engines  
+information retrieval
